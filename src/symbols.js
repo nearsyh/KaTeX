@@ -386,6 +386,11 @@ var symbols = {
             group: "rel",
             replace: "\u2265"
         },
+        "\\gg": {
+            font: "main",
+            group: "rel",
+            replace: "\u226b"
+        },
         "\\gets": {
             font: "main",
             group: "rel",
@@ -410,6 +415,11 @@ var symbols = {
             font: "main",
             group: "rel",
             replace: "\u2264"
+        },
+        "\\ll": {
+            font: "main",
+            group: "rel",
+            replace: "\u226a"
         },
         "\\ne": {
             font: "main",
@@ -440,6 +450,21 @@ var symbols = {
             font: "ams",
             group: "rel",
             replace: "\u2270"
+        },
+        "\\subset": {
+            font: "math",
+            group: "rel",
+            replace: "\u2282"
+        },
+        "\\subseteq": {
+            font: "math",
+            group: "rel",
+            replace: "\u2286"
+        },
+        "\\nsubseteq": {
+            font: "math",
+            group: "rel",
+            replace: "\u2288"
         },
         "\\!": {
             font: "main",
